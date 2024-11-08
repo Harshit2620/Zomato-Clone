@@ -1,0 +1,93 @@
+*{
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.navbar-nav a{
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    /* border: 1px solid white; */
+    border-radius: 6px;
+    font-weight: 200;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.navbar-nav a:hover{
+    /* text-decoration: none; */
+    color: #ffffff;
+}
+
+
+.navbar-brand{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.mytext{
+    color: #ff7e8b;;
+}
+
+
+.hero{
+    background-image: url('../images/bggg.avif'); 
+    background-size: cover; 
+    background-position: center;     
+}
+
+.head-text{
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: start;
+    color: #1c1c1c;
+}
+
+.sub-text{
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #363636;
+}
+
+.card-text1{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card-subtext{
+    font-size: 16px;
+    line-height: 24px;
+    color: #363636;
+}
+
+.location-card:hover{
+    transform: scale(1.09);
+}
+
+.location-card{
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border: 1px solid #ccc;
+}
+
+.footer-li{
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 25.2px;
+    color: #363636;
+    transition: transform 0.5s ease;
+}
+
+.footer-li:hover{
+    color: #ff7e8b;
+    transform: scale(1.07);
+}
+
+
+ 
+
+
+
+

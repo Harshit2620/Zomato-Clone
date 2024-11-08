@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page || Zomato</title>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row p-5" style="background-color: #ff7e8b">
+            <div class="col-sm-10 mx-auto">
+                <div class="row p-3 rounded-2" style="background-color: #e23744;">
+                    <div class="col-sm-6">
+                        <img src="images/imon.png" class="w-100 h-100 rounded-2" alt="Background Image">
+                    </div>
+                    <div class="col-sm-6 p-4">
+                        <h2 class="text-light fs-1">Create an account</h2>
+                        <p class="text-light">Already have an account? <a href="login.html" class="mytext">Log in</a></p>
+                        <form id="registrationForm">
+                            <div class="row mt-4">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <input type="password" class="form-control" placeholder="Enter Your Password">
+                                </div>
+                                <div class="col-12 mt-3 d-flex align-items-center text-light">
+                                    <input type="checkbox" id="check" required>
+                                    <label for="check" class="mb-0">I agree to the <a href="#" class="mytext">Terms & Conditions</a></label>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="btn mybtn w-100" style="color: #fff;">Create Account</button>
+                                </div>
+                                <div class="d-flex my-2 text-light align-items-center">
+                                    <hr class="flex-grow-1 border-2">
+                                    <span class="mx-3">or register with</span>
+                                    <hr class="flex-grow-1 border-2">
+                                </div>
+                                <div class="d-flex reg-icon justify-content-between">
+                                    <div class="col-sm-6 py-1 border rounded text-center mx-1" style="background-color: #ff7e8b;">
+                                        <a href="#" style="color: #fff;"><img src="images/google.png" alt="Google" style="height: 25px; padding-right: 15px;">Google</a>
+                                    </div>
+                                    <div class="col-sm-6 py-1 border rounded text-center mx-1" style="background-color: #ff7e8b;">
+                                        <a href="#" style="color: #fff;"><img src="images/apple.png" alt="Apple" style="height: 35px; padding-right: 5px;">Apple</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+      document.getElementById('registrationForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent the default form submission
+          // Clear the input fields
+          this.reset();
+      });
+  </script>
+</body>
+</html>
